@@ -1,2 +1,5 @@
 languageCode = "en-us"
 title = "Eric McKinney's Blog"
+
+[permalinks]
+  posts = "/:title/"

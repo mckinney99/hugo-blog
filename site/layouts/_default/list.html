@@ -1,5 +1,3 @@
-{{ define "main" }}
-
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
@@ -11,4 +9,3 @@
   {{ partial "pagination" . }}
 </div>
 
-{{end}}
